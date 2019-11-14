@@ -1,0 +1,41 @@
+{
+  "name": "lab9",
+  "version": "1.0.0",
+  "description": "js tools",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src/single -d build",
+    "format": "prettier --write \"src/**/*.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Elizabetter/SamSol_lab9.git"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "elizx",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Elizabetter/SamSol_lab9/issues"
+  },
+  "homepage": "https://github.com/Elizabetter/SamSol_lab9#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.7.0",
+    "@babel/core": "^7.7.2",
+    "@babel/plugin-proposal-optional-chaining": "^7.6.0",
+    "@babel/preset-env": "^7.7.1",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.2.0",
+    "eslint": "^6.6.0",
+    "eslint-plugin-vue": "^6.0.1",
+    "http-server": "^0.11.1",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "core-js": "^2.6.10"
+  }
+}
